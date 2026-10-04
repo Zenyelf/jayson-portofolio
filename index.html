@@ -1,0 +1,397 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Jayson Chrisnanda — Cyber Security Portfolio" />
+  <title>Jayson Chrisnanda | Cyber Security Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div class="site-shell">
+
+    <header class="topbar">
+      <button class="brand" data-scroll="top">
+        JC<span>.</span>
+      </button>
+
+      <nav class="nav" id="nav">
+        <button data-scroll="about">About Me</button>
+        <button data-scroll="projects">Projects & Others</button>
+        <button data-scroll="vol-org">Volunteer & Organization</button>
+        <button data-scroll="contact">Contact</button>
+      </nav>
+
+      <button class="menu" id="menu" aria-label="Toggle menu">
+        ☰
+      </button>
+    </header>
+
+    <main>
+
+      <!-- HERO -->
+      <!-- HERO -->
+      <section class="hero section">
+        <div class="hero-layout">
+          
+          <!-- Kolom Teks (Kiri) -->
+          <div class="hero-copy">
+            <p class="eyebrow">HELLO, I'M</p>
+            <h1>Jayson Chrisnanda</h1>
+            <h2>Cyber Security Student</h2>
+            <p class="hero-text">
+              Exploring offensive security, web penetration testing, and translating technical vulnerabilities into actionable business risk mitigation.
+            </p>
+            <div class="hero-actions">
+              <button class="btn primary" data-scroll="projects">View Projects ↗</button>
+              <a class="btn secondary" href="#contact">Contact Me ↓</a>
+            </div>
+          </div>
+
+          <!-- Kolom Gambar (Kanan) -->
+          <div class="hero-image">
+            <!-- Pastikan nama dan lokasi file gambarmu sesuai -->
+            <img src="assets/images/profile.jpg" alt="Jayson Chrisnanda">
+          </div>
+
+        </div>
+      </section>
+
+      <!-- ABOUT ME -->
+      <section id="about" class="section split-section">
+        <div>
+          <p class="section-kicker">01 / ABOUT</p>
+          <h3>About Me!</h3>
+        </div>
+        <div class="about-text">
+          <p>
+            I am a Cyber Security undergraduate at BINUS University (Current GPA: 3.78) with a strong interest in Penetration Testing and Risk Mitigation. I enjoy learning by building projects, solving security challenges, and turning technical concepts into practical work.
+          </p>
+          <p>
+            My approach to cybersecurity bridges the gap between technical exploitation and business strategy. With my background in Public Relations and Project Management, my main objective is to analyze technical findings, understand their business impact, and translate complex security risks into actionable mitigation strategies for developers and management.
+          </p>
+        </div>
+      </section>
+
+      <!-- PROJECTS & OTHERS -->
+      <section id="projects" class="section">
+        <div class="section-heading">
+          <div>
+            <p class="section-kicker">02 / WORK</p>
+            <h3>Projects & Others</h3>
+          </div>
+          <p>A selection of technical security audits, tool development, and CTF write-ups.</p>
+        </div>
+
+        <div class="project-grid">
+
+          <!-- 4 KARTU UTAMA -->
+          <!-- PROJECT 1 -->
+          <article class="content-card">
+            <div class="card-body">
+              <p class="project-category">VULNERABILITY ASSESSMENT</p>
+              <h4>Web Security Audit: Educational Institution</h4>
+              <p>
+                Conducted an independent vulnerability assessment on a live school web infrastructure. Discovered and documented critical flaws including Insecure Direct Object Reference (IDOR) and exposed hardcoded administrator credentials.
+              </p>
+              <div class="tags">
+                <span>Burp Suite</span>
+                <span>Manual Pentesting</span>
+                <span>Risk Mitigation</span>
+              </div>
+              <a href="https://zenyelfs-way.gitbook.io/journey" target="_blank" class="card-link">See the Write Up ↗</a>
+            </div>
+          </article>
+
+          <!-- PROJECT 2 -->
+          <article class="content-card">
+            <div class="card-body">
+              <p class="project-category">TOOL DEVELOPMENT</p>
+              <h4>Typosquatting Domain Scanner</h4>
+              <p>
+                Developed an automated Python tool designed to identify typo-registered domains and analyze targeted industries for proactive threat intelligence and brand protection.
+              </p>
+              <div class="tags">
+                <span>Python</span>
+                <span>Threat Intelligence</span>
+                <span>Automation</span>
+              </div>
+              <a href="https://github.com/Zenyelf" target="_blank" class="card-link">View in GitHub ↗</a>
+            </div>
+          </article>
+
+          <!-- PROJECT 3 -->
+          <article class="content-card">
+            <div class="card-body">
+              <p class="project-category">CAPTURE THE FLAG</p>
+              <h4>Hack The Box & picoCTF Vault</h4>
+              <p>
+                Comprehensive documentation and exploitation methodologies for various CTF machines, including compromising the 'Editor' machine on Hack The Box.
+              </p>
+              <div class="tags">
+                <span>Hack The Box</span>
+                <span>picoCTF</span>
+                <span>Exploitation</span>
+              </div>
+              <a href="https://zenyelfs-way.gitbook.io/journey" target="_blank" class="card-link">See the Write Up ↗</a>
+            </div>
+          </article>
+
+          <!-- PROJECT 4 -->
+          <article class="content-card">
+            <div class="card-body">
+              <p class="project-category">WEB DEVELOPMENT</p>
+              <h4>TeachMe — Mentor Scheduling Platform</h4>
+              <p>
+                Led a 5-person team as Project Manager & Backend Developer to build a containerized course booking web platform using Laravel, Docker, and MySQL.
+              </p>
+              <div class="tags">
+                <span>Laravel</span>
+                <span>PHP</span>
+                <span>Docker</span>
+                <span>MySQL</span>
+              </div>
+              <a href="https://github.com/Zenyelf" target="_blank" class="card-link">View in GitHub ↗</a>
+            </div>
+          </article>
+
+          <!-- 4 KARTU TAMBAHAN (AWALNYA DISEMBUNYIKAN) -->
+          <!-- PROJECT 5 -->
+          <article class="content-card hidden-card">
+            <div class="card-body">
+              <p class="project-category">CAPTURE THE FLAG</p>
+              <h4>SunShineCTF 2026 Write-Ups</h4>
+              <p>
+                Documented solutions and exploit methodologies for web challenges in SunShineCTF 2026, including the 'Groundhog Day' and 'You Are Kidding Me' web exploitation challenges.
+              </p>
+              <div class="tags">
+                <span>Web Exploitation</span>
+                <span>CTF</span>
+              </div>
+              <a href="https://zenyelfs-way.gitbook.io/journey/ctf/sunshinectf-2026" target="_blank" class="card-link">See the Write Up ↗</a>
+            </div>
+          </article>
+
+          <!-- PROJECT 6 -->
+          <article class="content-card hidden-card">
+            <div class="card-body">
+              <p class="project-category">CAPTURE THE FLAG</p>
+              <h4>PETIR's CTF Vault Challenges</h4>
+              <p>
+                Solved and documented various internal challenges from PETIR's CTF Vault, focusing on Binary Exploitation ('yoyoyobel' challenge) and Web Exploitation ('Jawa Token').
+              </p>
+              <div class="tags">
+                <span>Binary Exploitation</span>
+                <span>Web Exploitation</span>
+              </div>
+              <a href="https://zenyelfs-way.gitbook.io/journey/ctf/petirs-ctf-vault" target="_blank" class="card-link">See the Write Up ↗</a>
+            </div>
+          </article>
+
+          <!-- PROJECT 7 -->
+          <article class="content-card hidden-card">
+            <div class="card-body">
+              <p class="project-category">SECURITY TRAINING</p>
+              <h4>OverTheWire: Bandit Wargames</h4>
+              <p>
+                Completed the Bandit wargame series to build a solid, hands-on foundation in Linux command-line operations, file permissions, and basic security concepts.
+              </p>
+              <div class="tags">
+                <span>Linux</span>
+                <span>Command Line</span>
+                <span>Security Basics</span>
+              </div>
+              <a href="https://zenyelfs-way.gitbook.io/journey/ctf/overthewire" target="_blank" class="card-link">See the Write Up ↗</a>
+            </div>
+          </article>
+
+          <!-- PROJECT 8 -->
+          <article class="content-card hidden-card">
+            <div class="card-body">
+              <p class="project-category">SECURITY RESEARCH</p>
+              <h4>Web Exploitation Payloads Repository</h4>
+              <p>
+                Compiled and organized a personal repository of payloads and cheat sheets for Web Exploitation, focusing on Server-Side Template Injection (SSTI) and GitHub-related attack vectors.
+              </p>
+              <div class="tags">
+                <span>SSTI</span>
+                <span>Payloads</span>
+                <span>Cheat Sheet</span>
+              </div>
+              <a href="https://zenyelfs-way.gitbook.io/journey/payloads/web-exploitation" target="_blank" class="card-link">See the Payloads ↗</a>
+            </div>
+          </article>
+
+        </div>
+
+        <!-- TOMBOL VIEW ALL -->
+        <div class="view-all-container">
+          <button class="btn primary toggle-view-btn" data-type="Projects">View All Projects ↓</button>
+        </div>
+      </section>
+
+      <!-- VOLUNTEER & ORGANIZATION -->
+      <section id="vol-org" class="section">
+        <div class="section-heading">
+          <div>
+            <p class="section-kicker">03 / EXPERIENCE</p>
+            <h3>Volunteer & Organization</h3>
+          </div>
+          <p>My journey in leadership, public speaking, and community empowerment.</p>
+        </div>
+
+        <div class="project-grid">
+
+          <!-- 4 KARTU UTAMA (SELALU TAMPIL) -->
+          <!-- ORG 1: KMBD (MC) -->
+          <article class="content-card">
+            <img src="assets/images/org-kmbd.jpg" alt="KMBD Activity" class="card-img" loading="lazy">
+            <div class="card-body">
+              <p class="project-category">ORGANIZATION &bull; JUL 2026 - AUG 2026</p>
+              <h4>Master of Ceremonies - PMB KMBD 2026</h4>
+              <p>
+                Hosted 5 comprehensive New Student Admissions orientation sessions across Kemanggisan and Senayan campuses. Effectively communicated guidelines to large audiences while maintaining high enthusiasm[cite: 6].
+              </p>
+              <div class="tags">
+                <span>Public Speaking</span>
+                <span>Event Management</span>
+                <span>Communication</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- ORG 2: KMBD (VIP LIAISON) -->
+          <article class="content-card">
+            <img src="assets/images/org-vip.jpg" alt="KMBD VIP Liaison" class="card-img" loading="lazy">
+            <div class="card-body">
+              <p class="project-category">ORGANIZATION &bull; JUN 2026</p>
+              <h4>VIP Liaison - KMBD Waisak 2570</h4>
+              <p>
+                Served as the dedicated VIP Liaison for a revered Bhikkhu[cite: 6]. Proactively anticipated needs and provided high-touch assistance to ensure optimal comfort, seamless transitions, and strict adherence to protocols[cite: 6].
+              </p>
+              <div class="tags">
+                <span>Protocol Management</span>
+                <span>Leadership</span>
+                <span>Coordination</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- VOLUNTEER 1: WALUBI -->
+          <article class="content-card">
+            <img src="assets/images/vol-walubi.jpg" alt="WALUBI Volunteering" class="card-img" loading="lazy">
+            <div class="card-body">
+              <p class="project-category">VOLUNTEER &bull; MAY 2025</p>
+              <h4>Protocol Staff - WALUBI</h4>
+              <p>
+                Assisted with crowd management and directed general attendees at Perwakilan Umat Buddha Indonesia (WALUBI)[cite: 7]. Provided clear event information to ensure a smooth guest experience[cite: 7].
+              </p>
+              <div class="tags">
+                <span>Crowd Management</span>
+                <span>Public Relations</span>
+                <span>Teamwork</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- VOLUNTEER 2: TFI -->
+          <article class="content-card">
+            <img src="assets/images/vol-tfi.jpg" alt="Teach For Indonesia" class="card-img" loading="lazy">
+            <div class="card-body">
+              <p class="project-category">VOLUNTEER &bull; APR 2025 - JUN 2025</p>
+              <h4>Teacher - Teach For Indonesia</h4>
+              <p>
+                Mentored and taught Mathematics to elementary school students over 5 comprehensive sessions[cite: 7], demonstrating adaptability and a strong commitment to education.
+              </p>
+              <div class="tags">
+                <span>Mentoring</span>
+                <span>Education</span>
+                <span>Adaptability</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- KARTU TAMBAHAN (AWALNYA DISEMBUNYIKAN) -->
+          <!-- DV SOS -->
+          <article class="content-card hidden-card">
+            <div class="card-body">
+              <p class="project-category">ORGANIZATION &bull; JUL 2025 - NOV 2025</p>
+              <h4>Funds and Equipment Staff - DV SOS 2025</h4>
+              <p>
+                Managed resources and logistical equipment allocations for the DV SOS 2025 event[cite: 6]. 
+              </p>
+              <div class="tags">
+                <span>Logistics</span>
+                <span>Resource Management</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- DV TEACH -->
+          <article class="content-card hidden-card">
+            <div class="card-body">
+              <p class="project-category">ORGANIZATION &bull; APR 2025 - JUN 2025</p>
+              <h4>Event Staff - DV Teach 1, 2025</h4>
+              <p>
+                Supported event coordination and operational tasks to facilitate effective educational outreach activities[cite: 6].
+              </p>
+              <div class="tags">
+                <span>Event Coordination</span>
+                <span>Teamwork</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- WAISAK 2025 -->
+          <article class="content-card hidden-card">
+            <div class="card-body">
+              <p class="project-category">ORGANIZATION &bull; MAY 2025</p>
+              <h4>VIP Liaison - KMBD Waisak 2569</h4>
+              <p>
+                Served as the dedicated VIP Liaison for a revered Bhikkhu during KMBD Waisak 2569 B.E./2025[cite: 6], coordinating personal requirements and logistical protocols[cite: 6].
+              </p>
+              <div class="tags">
+                <span>Protocol Management</span>
+                <span>Coordination</span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+        <!-- TOMBOL VIEW ALL -->
+        <div class="view-all-container">
+          <button class="btn primary toggle-view-btn" data-type="Experiences">View All Experiences ↓</button>
+
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact" class="section contact">
+        <p class="section-kicker">04 / CONTACT</p>
+        <h3>Let's build something secure.</h3>
+        <p>
+          Feel free to get in touch for projects, technical collaboration, and professional connections!
+        </p>
+
+        <div class="contact-links">
+          <a href="mailto:jayson.chrisnanda@binus.ac.id">✉ Email</a>
+          <a href="https://www.linkedin.com/in/jayson-chrisnanda-545aa9325/" target="_blank" rel="noopener noreferrer">in LinkedIn</a>
+          <a href="https://github.com/Zenyelf" target="_blank">⌘ GitHub</a>
+          <a href="https://zenyelfs-way.gitbook.io/journey" target="_blank">📚 GitBook</a>
+        </div>
+      </section>
+
+    </main>
+
+    <footer>
+      <span>© 2026 Jayson Chrisnanda</span>
+      <span>Portfolio</span>
+    </footer>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
