@@ -39,7 +39,7 @@
           <div class="hero-copy">
             <p class="eyebrow">HELLO, I'M</p>
             <h1>Jayson Chrisnanda</h1>
-            <h2>Cyber Security Student</h2>
+            <h2>Cyber Security Student at BINUS</h2>
             <p class="hero-text">
               Exploring offensive security, web penetration testing, and translating technical vulnerabilities into actionable business risk mitigation.
             </p>
@@ -69,7 +69,7 @@
             I am a Cyber Security undergraduate at BINUS University (Current GPA: 3.78) with a strong interest in Penetration Testing and Risk Mitigation. I enjoy learning by building projects, solving security challenges, and turning technical concepts into practical work.
           </p>
           <p>
-            My approach to cybersecurity bridges the gap between technical exploitation and business strategy. With my background in Public Relations and Project Management, my main objective is to analyze technical findings, understand their business impact, and translate complex security risks into actionable mitigation strategies for developers and management.
+            My approach to cybersecurity bridges the gap between technical exploitation and business strategy. With a foundation in Public Relations and hands-on team leadership, my objective is to analyze vulnerabilities, evaluate their broader impact, and communicate clear mitigation strategies for developers and decision makers.
           </p>
         </div>
       </section>
@@ -87,59 +87,78 @@
         <div class="project-grid">
 
           <!-- 4 KARTU UTAMA -->
+           
           <!-- PROJECT 1 -->
           <article class="content-card">
             <div class="card-body">
-              <p class="project-category">VULNERABILITY ASSESSMENT</p>
-              <h4>Web Security Audit: Educational Institution</h4>
-              <p>
-                Conducted an independent vulnerability assessment on a live school web infrastructure. Discovered and documented critical flaws including Insecure Direct Object Reference (IDOR) and exposed hardcoded administrator credentials.
-              </p>
-              <div class="tags">
-                <span>Burp Suite</span>
-                <span>Manual Pentesting</span>
-                <span>Risk Mitigation</span>
-              </div>
-              <a href="https://zenyelfs-way.gitbook.io/journey" target="_blank" class="card-link">See the Write Up ↗</a>
-            </div>
-          </article>
-
-          <!-- PROJECT 2 -->
-          <article class="content-card">
-            <div class="card-body">
-              <p class="project-category">TOOL DEVELOPMENT</p>
-              <h4>Typosquatting Domain Scanner</h4>
-              <p>
-                Developed an automated Python tool designed to identify typo-registered domains and analyze targeted industries for proactive threat intelligence and brand protection.
-              </p>
-              <div class="tags">
-                <span>Python</span>
-                <span>Threat Intelligence</span>
-                <span>Automation</span>
-              </div>
-              <a href="https://github.com/Zenyelf" target="_blank" class="card-link">View in GitHub ↗</a>
-            </div>
-          </article>
-
-          <!-- PROJECT 3 -->
-          <article class="content-card">
-            <div class="card-body">
               <p class="project-category">CAPTURE THE FLAG</p>
-              <h4>Hack The Box & picoCTF Vault</h4>
+              <h4>Hack The Box & CTF</h4>
               <p>
-                Comprehensive documentation and exploitation methodologies for various CTF machines, including compromising the 'Editor' machine on Hack The Box.
+                Comprehensive documentation and exploitation methodologies for various CTF machines and challenges across different platforms and environments.
               </p>
               <div class="tags">
                 <span>Hack The Box</span>
                 <span>picoCTF</span>
                 <span>Exploitation</span>
               </div>
-              <a href="https://zenyelfs-way.gitbook.io/journey" target="_blank" class="card-link">See the Write Up ↗</a>
+              <a href="https://zenyelfs-way.gitbook.io/journey/ctf/hack-the-box" target="_blank" class="card-link">See the Write Up ↗</a>
+            </div>
+          </article>
+
+          <!-- PROJECT 2 -->
+          <article class="content-card">
+            <div class="card-body">
+              <p class="project-category">VULNERABILITY ASSESSMENT</p>
+              <h4>Web Security Audit: Educational Institution</h4>
+              <p>
+                Conducted an independent vulnerability assessment on a live school web infrastructure. Discovered and documented critical flaws including Cross-site scripting (XSS) and exposed hardcoded administrator credentials.
+              </p>
+              <div class="tags">
+                <span>Burp Suite</span>
+                <span>Manual Pentesting</span>
+                <span>Risk Mitigation</span>
+              </div>
+              <a href="https://zenyelfs-way.gitbook.io/journey/bug-finding/local-school-the-danger-of-vibe-coding" target="_blank" class="card-link">See the report ↗</a>
+            </div>
+          </article>
+          
+          <!-- PROJECT 3 -->
+          <article class="content-card">
+            <div class="card-body">
+              <p class="project-category">TOOL DEVELOPMENT</p>
+              <h4>Typosquatting Domain Scanner</h4>
+              <p>
+                Developed a multi-threaded Python scanner to uncover typosquatting and brand impersonation in real-time. Features algorithmic mutation engines (omission, bitsquatting), automated redirect inspection, and URLScan.io threat intelligence integration.
+              </p>
+              <div class="tags">
+                <span>Python</span>
+                <span>Threat Intelligence</span>
+                <span>Multi-Threading</span>
+              </div>
+              <a href="https://github.com/Zenyelf/typo_squatting_scanner" target="_blank" class="card-link">View in GitHub ↗</a>
             </div>
           </article>
 
           <!-- PROJECT 4 -->
           <article class="content-card">
+            <div class="card-body">
+              <p class="project-category">WEB DEVELOPMENT</p>
+              <h4>Behavior-Based JWT Revocation System</h4>
+              <p>
+                  Designed a tiered JWT revocation mechanism that uses behavioral anomaly scoring to detect suspicious sessions and dynamically revoke either a single token or all active sessions. The architecture combines Bloom Filter and Token Versioning with a Fail-Secure approach to maintain security without sacrificing stateless performance.
+              </p>
+              <div class="tags">
+                <span>JWT</span>
+                <span>System Security</span>
+                <span>Risk-Based Security</span>
+              </div>
+              <a href="https://drive.google.com/file/d/1aPulHnT4c2Et3iMqbFlwYBWcFLBPet9Y/view?usp=sharing" target="_blank" class="card-link">View the report ↗</a>
+            </div>
+          </article>
+
+          <!-- 5 KARTU TAMBAHAN (AWALNYA DISEMBUNYIKAN) -->
+          <!-- PROJECT 5 -->
+          <article class="content-card hidden-card">
             <div class="card-body">
               <p class="project-category">WEB DEVELOPMENT</p>
               <h4>TeachMe — Mentor Scheduling Platform</h4>
@@ -152,77 +171,45 @@
                 <span>Docker</span>
                 <span>MySQL</span>
               </div>
-              <a href="https://github.com/Zenyelf" target="_blank" class="card-link">View in GitHub ↗</a>
-            </div>
-          </article>
-
-          <!-- 4 KARTU TAMBAHAN (AWALNYA DISEMBUNYIKAN) -->
-          <!-- PROJECT 5 -->
-          <article class="content-card hidden-card">
-            <div class="card-body">
-              <p class="project-category">CAPTURE THE FLAG</p>
-              <h4>SunShineCTF 2026 Write-Ups</h4>
-              <p>
-                Documented solutions and exploit methodologies for web challenges in SunShineCTF 2026, including the 'Groundhog Day' and 'You Are Kidding Me' web exploitation challenges.
-              </p>
-              <div class="tags">
-                <span>Web Exploitation</span>
-                <span>CTF</span>
-              </div>
-              <a href="https://zenyelfs-way.gitbook.io/journey/ctf/sunshinectf-2026" target="_blank" class="card-link">See the Write Up ↗</a>
+              <a href="https://github.com/Zenyelf/TeachMe" target="_blank" class="card-link">View in GitHub ↗</a>
             </div>
           </article>
 
           <!-- PROJECT 6 -->
           <article class="content-card hidden-card">
             <div class="card-body">
-              <p class="project-category">CAPTURE THE FLAG</p>
-              <h4>PETIR's CTF Vault Challenges</h4>
+              <p class="project-category">AI DEVELOPMENT</p>
+              <h4>Trash Classifier AI</h4>
               <p>
-                Solved and documented various internal challenges from PETIR's CTF Vault, focusing on Binary Exploitation ('yoyoyobel' challenge) and Web Exploitation ('Jawa Token').
+                An AI system that identifies waste from images and classifies it as either Recyclable or Non-Recyclable, helping make waste sorting faster and more consistent. The system uses CNN and MobileNetV2 and achieves around 98% accuracy.
               </p>
               <div class="tags">
-                <span>Binary Exploitation</span>
-                <span>Web Exploitation</span>
+                <span>Computer Vision</span>
+                <span>AI</span>
               </div>
-              <a href="https://zenyelfs-way.gitbook.io/journey/ctf/petirs-ctf-vault" target="_blank" class="card-link">See the Write Up ↗</a>
+                <div class="card-links">
+                  <a href="https://drive.google.com/file/d/1-oZJw7-yjQdM4oVbYz95YQCAQRTCD0GK/view?usp=sharing" target="_blank" class="card-link" style="margin-right: 20px;">See the report ↗</a>
+                  <a href="https://github.com/Zenyelf/Trash_Classifier_AI" target="_blank" class="card-link">View in GitHub ↗</a>
+                </div>
             </div>
           </article>
 
           <!-- PROJECT 7 -->
           <article class="content-card hidden-card">
             <div class="card-body">
-              <p class="project-category">SECURITY TRAINING</p>
-              <h4>OverTheWire: Bandit Wargames</h4>
+              <p class="project-category">BIOINFORMATICS</p>
+              <h4>Drug Resistance Classification from Gene Expression</h4>
               <p>
-                Completed the Bandit wargame series to build a solid, hands-on foundation in Linux command-line operations, file permissions, and basic security concepts.
+                Developed a two-stage machine learning pipeline to classify chemotherapy drugs and identify drug resistance patterns from cancer cell gene expression data. The model combines Logistic Regression and Random Forest, achieving over 91% binary classification accuracy.
               </p>
               <div class="tags">
-                <span>Linux</span>
-                <span>Command Line</span>
-                <span>Security Basics</span>
+                <span>Biology</span>
+                <span>Machine Learning</span>
+                <span>Python</span>
               </div>
-              <a href="https://zenyelfs-way.gitbook.io/journey/ctf/overthewire" target="_blank" class="card-link">See the Write Up ↗</a>
+              <a href="https://drive.google.com/file/d/1aPulHnT4c2Et3iMqbFlwYBWcFLBPet9Y/view?usp=sharing" target="_blank" class="card-link">See the report ↗</a>
             </div>
           </article>
-
-          <!-- PROJECT 8 -->
-          <article class="content-card hidden-card">
-            <div class="card-body">
-              <p class="project-category">SECURITY RESEARCH</p>
-              <h4>Web Exploitation Payloads Repository</h4>
-              <p>
-                Compiled and organized a personal repository of payloads and cheat sheets for Web Exploitation, focusing on Server-Side Template Injection (SSTI) and GitHub-related attack vectors.
-              </p>
-              <div class="tags">
-                <span>SSTI</span>
-                <span>Payloads</span>
-                <span>Cheat Sheet</span>
-              </div>
-              <a href="https://zenyelfs-way.gitbook.io/journey/payloads/web-exploitation" target="_blank" class="card-link">See the Payloads ↗</a>
-            </div>
-          </article>
-
         </div>
 
         <!-- TOMBOL VIEW ALL -->
@@ -246,12 +233,28 @@
           <!-- 4 KARTU UTAMA (SELALU TAMPIL) -->
           <!-- ORG 1: KMBD (MC) -->
           <article class="content-card">
+            <img src="assets/images/org-spr.jpg" alt="KMBD Activity" class="card-img" loading="lazy">
+            <div class="card-body">
+              <p class="project-category">ORGANIZATION &bull; DEC 2024 - Present</p>
+              <h4>Staff of Public Relations and Social Services</h4>
+              <p>
+                Serving as the organizational representative for external community relations.
+              </p>
+              <div class="tags">
+                <span>Public Speaking</span>
+                <span>Communication</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- ORG 2: KMBD (MC) -->
+          <article class="content-card">
             <img src="assets/images/org-kmbd.jpg" alt="KMBD Activity" class="card-img" loading="lazy">
             <div class="card-body">
               <p class="project-category">ORGANIZATION &bull; JUL 2026 - AUG 2026</p>
               <h4>Master of Ceremonies - PMB KMBD 2026</h4>
               <p>
-                Hosted 5 comprehensive New Student Admissions orientation sessions across Kemanggisan and Senayan campuses. Effectively communicated guidelines to large audiences while maintaining high enthusiasm[cite: 6].
+                Hosted 5 comprehensive New Student Admissions orientation sessions across Kemanggisan and Senayan campuses. Effectively communicated guidelines to large audiences while maintaining high enthusiasm.
               </p>
               <div class="tags">
                 <span>Public Speaking</span>
@@ -261,14 +264,14 @@
             </div>
           </article>
 
-          <!-- ORG 2: KMBD (VIP LIAISON) -->
+          <!-- ORG 3: KMBD (VIP LIAISON) -->
           <article class="content-card">
             <img src="assets/images/org-vip.jpg" alt="KMBD VIP Liaison" class="card-img" loading="lazy">
             <div class="card-body">
               <p class="project-category">ORGANIZATION &bull; JUN 2026</p>
-              <h4>VIP Liaison - KMBD Waisak 2570</h4>
+              <h4>VIP Liaison - KMBD Waisak 2570 B.E / 2026</h4>
               <p>
-                Served as the dedicated VIP Liaison for a revered Bhikkhu[cite: 6]. Proactively anticipated needs and provided high-touch assistance to ensure optimal comfort, seamless transitions, and strict adherence to protocols[cite: 6].
+                Served as the dedicated VIP Liaison (Dayaka) for a revered Bhikkhu. Proactively anticipated needs and provided high-touch assistance to ensure optimal comfort, seamless transitions, and strict adherence to protocols.
               </p>
               <div class="tags">
                 <span>Protocol Management</span>
@@ -278,14 +281,14 @@
             </div>
           </article>
 
-          <!-- VOLUNTEER 1: WALUBI -->
+          <!-- VOLUNTEER 4: WALUBI -->
           <article class="content-card">
             <img src="assets/images/vol-walubi.jpg" alt="WALUBI Volunteering" class="card-img" loading="lazy">
             <div class="card-body">
               <p class="project-category">VOLUNTEER &bull; MAY 2025</p>
               <h4>Protocol Staff - WALUBI</h4>
               <p>
-                Assisted with crowd management and directed general attendees at Perwakilan Umat Buddha Indonesia (WALUBI)[cite: 7]. Provided clear event information to ensure a smooth guest experience[cite: 7].
+                Assisted with crowd management and directed general attendees at Perwakilan Umat Buddha Indonesia (WALUBI). Provided clear event information to ensure a smooth guest experience.
               </p>
               <div class="tags">
                 <span>Crowd Management</span>
@@ -295,14 +298,32 @@
             </div>
           </article>
 
+          <!-- KARTU TAMBAHAN (AWALNYA DISEMBUNYIKAN) -->
+
+          <!-- WAISAK 2025 -->
+          <article class="content-card hidden-card">
+            <img src="assets/images/org-vip2.jpg" alt="Teach For Indonesia" class="card-img" loading="lazy">
+            <div class="card-body">
+              <p class="project-category">ORGANIZATION &bull; MAY 2025</p>
+              <h4>VIP Liaison - KMBD Waisak 2569 B.E / 2025</h4>
+              <p>
+                Served as the dedicated VIP Liaison (Dayaka) for a revered Bhikkhu during KMBD Waisak 2569 B.E/2025, coordinating personal requirements and logistical protocols.
+              </p>
+              <div class="tags">
+                <span>Protocol Management</span>
+                <span>Coordination</span>
+              </div>
+            </div>
+          </article>
+
           <!-- VOLUNTEER 2: TFI -->
-          <article class="content-card">
+          <article class="content-card hidden-card">
             <img src="assets/images/vol-tfi.jpg" alt="Teach For Indonesia" class="card-img" loading="lazy">
             <div class="card-body">
               <p class="project-category">VOLUNTEER &bull; APR 2025 - JUN 2025</p>
               <h4>Teacher - Teach For Indonesia</h4>
               <p>
-                Mentored and taught Mathematics to elementary school students over 5 comprehensive sessions[cite: 7], demonstrating adaptability and a strong commitment to education.
+                Mentored and taught Mathematics to elementary school students over 5 comprehensive sessions, demonstrating adaptability and a strong commitment to education.
               </p>
               <div class="tags">
                 <span>Mentoring</span>
@@ -312,29 +333,31 @@
             </div>
           </article>
 
-          <!-- KARTU TAMBAHAN (AWALNYA DISEMBUNYIKAN) -->
           <!-- DV SOS -->
           <article class="content-card hidden-card">
+            <img src="assets/images/org-dvsos.jpg" alt="Teach For Indonesia" class="card-img" loading="lazy">
             <div class="card-body">
               <p class="project-category">ORGANIZATION &bull; JUL 2025 - NOV 2025</p>
               <h4>Funds and Equipment Staff - DV SOS 2025</h4>
               <p>
-                Managed resources and logistical equipment allocations for the DV SOS 2025 event[cite: 6]. 
+                Managed resources and logistical equipment allocations for the DV SOS 2025 event. 
               </p>
               <div class="tags">
                 <span>Logistics</span>
                 <span>Resource Management</span>
+                <span>Teamwork</span>
               </div>
             </div>
           </article>
 
           <!-- DV TEACH -->
           <article class="content-card hidden-card">
+            <img src="assets/images/org-dvt.jpg" alt="Teach For Indonesia" class="card-img" loading="lazy">
             <div class="card-body">
               <p class="project-category">ORGANIZATION &bull; APR 2025 - JUN 2025</p>
               <h4>Event Staff - DV Teach 1, 2025</h4>
               <p>
-                Supported event coordination and operational tasks to facilitate effective educational outreach activities[cite: 6].
+                Supported event coordination and operational tasks to facilitate effective educational outreach activities.
               </p>
               <div class="tags">
                 <span>Event Coordination</span>
@@ -343,20 +366,7 @@
             </div>
           </article>
 
-          <!-- WAISAK 2025 -->
-          <article class="content-card hidden-card">
-            <div class="card-body">
-              <p class="project-category">ORGANIZATION &bull; MAY 2025</p>
-              <h4>VIP Liaison - KMBD Waisak 2569</h4>
-              <p>
-                Served as the dedicated VIP Liaison for a revered Bhikkhu during KMBD Waisak 2569 B.E./2025[cite: 6], coordinating personal requirements and logistical protocols[cite: 6].
-              </p>
-              <div class="tags">
-                <span>Protocol Management</span>
-                <span>Coordination</span>
-              </div>
-            </div>
-          </article>
+          
 
         </div>
 
